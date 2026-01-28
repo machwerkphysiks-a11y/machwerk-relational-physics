@@ -1,95 +1,195 @@
-# U-Raum (relationaler Vollraum)
+# U-Space (Relational Full Space)
 
-Der U-Raum ist kein physikalischer Raum.
-Er ist kein höherdimensionaler Raum,
-keine verborgene Geometrie
-und keine ontologische Entität.
+The U-space is **not** a physical space.
+It is not a higher-dimensional manifold,
+not a hidden geometry,
+and not an ontological substrate.
 
-Der U-Raum ist ein **formaler Referenzraum**.
+The U-space is a **formal reference space**.
 
-## Funktion des U-Raums
+---
 
-Der U-Raum dient ausschließlich dazu,
-physikalische Aussagen **vergleichbar, rückführbar
-und logisch einordenbar** zu machen.
+## Purpose of the U-Space
 
-Er ist der gemeinsame Ursprung aller Projektionen,
-nicht ihr physikalischer Hintergrund.
+The sole purpose of the U-space is to make
+physical statements
 
-## Definition
+- comparable,
+- formally traceable,
+- and logically classifiable.
 
-Der U-Raum wird als Menge aller konsistenten relationalen
-Konfigurationen definiert:
+It provides a common reference level
+for all relational descriptions,
+independent of any specific physical model.
+
+The U-space is the origin of all projections,
+but it is **not** their physical background.
+
+---
+
+## Formal Definition
+
+The U-space is defined as the set of all
+internally consistent relational configurations:
 
 \[
-\mathcal{U} := \{ \mathcal{R} \mid \mathcal{R}
-\text{ ist eine konsistente Menge von Relationen} \}
+\mathcal{U}
+\;:=\;
+\{\, \mathcal{R}
+\;\mid\;
+\mathcal{R} \text{ is a consistent set of relations} \,\}
 \]
 
-Elemente von \(\mathcal{U}\) sind keine Zustände,
-sondern Relationenschemata.
+Elements of \(\mathcal{U}\) are **not states**,
+objects, or events.
 
-## Eigenschaften
+They are **relational schemas**:
+abstract configurations of relations
+without interpretation.
 
-Der U-Raum besitzt:
+No notion of measurement, observation,
+or physical realization is implied at this level.
 
-- keine Metrik  
-- keine Dimension  
-- keine Zeitordnung  
-- keine Lokalität  
-- keine bevorzugte Struktur  
+---
 
-Alle diese Begriffe entstehen erst durch Projektion.
+## Absence of Physical Structure
 
-## Referenzcharakter
+The U-space possesses **no intrinsic physical structure**.
 
-Der U-Raum ist der **Referenzraum maximaler Zulässigkeit**:
+In particular, it has:
 
-- Alles darf formuliert werden.
-- Nichts ist automatisch physikalisch interpretierbar.
+- no metric  
+- no dimensionality  
+- no temporal ordering  
+- no locality  
+- no causal structure  
+- no preferred decomposition  
 
-Physikalische Bedeutung entsteht ausschließlich
-durch Projektion in beobachtbare Rechenräume.
+Any such structure arises **only after projection**.
 
-## Veränderlichkeit des Referenzraums
+If a concept requires distance, time, ordering,
+or localization, it is *not* a property of \(\mathcal{U}\).
 
-Der U-Raum ist **nicht statisch**.
+---
 
-Neue empirische Erkenntnisse,
-neue konsistente Relationen
-oder neue Vergleichsverfahren
-erweitern den effektiv nutzbaren Teil des U-Raums.
+## Reference Character
 
-Der Referenzraum wächst mit Erkenntnis,
-ohne seine formalen Eigenschaften zu verlieren.
+The U-space is the **maximal admissibility domain**.
 
-## Abgrenzung zu Spekulation
+Within \(\mathcal{U}\):
 
-Aussagen, die nicht rückführbar sind,
-bleiben im U-Raum zulässig,
-werden jedoch nicht physikalisch interpretiert.
+- all formally consistent relational expressions are allowed,
+- no expression is automatically physically meaningful,
+- no interpretation is privileged.
 
-Der U-Raum filtert nicht Inhalte,
-sondern trennt Interpretation von Formulierung.
+Physical meaning is **not inherent**.
+It emerges exclusively through projection
+into an observable calculation space.
 
-## Zusammenhang mit Projektion
+---
 
-Beobachtbare Physik entsteht durch Projektion:
+## Projection as Interpretation
+
+Observable physics arises via projection:
 
 \[
 \Pi : \mathcal{U} \rightarrow \mathcal{M}
 \]
 
-Nicht jede Relation ist projizierbar.
-Nicht jede Projektion ist injektiv.
+where \(\mathcal{M}\) is an observable calculation space.
 
-Diese Einschränkungen definieren die Schwarzgrenze.
+The projection does not restrict what exists in \(\mathcal{U}\).
+It restricts what can be **interpreted** physically.
 
-## Rolle im Rahmenwerk
+Multiple distinct relational configurations
+in \(\mathcal{U}\) may project to the same observable state.
 
-Der U-Raum ist kein Modell der Welt.
+This is a structural feature, not a deficiency.
 
-Er ist das **formale Koordinatensystem**,
-in dem Modelle vergleichbar,
-Grenzen sichtbar
-und Kategorienfehler vermeidbar werden.
+---
+
+## Non-Invertibility and Black Boundaries
+
+Because projections are generally non-injective,
+backprojection is not globally defined.
+
+The loss of injectivity defines **black boundaries**.
+
+These boundaries do not separate existence from non-existence.
+They separate
+
+- uniquely interpretable descriptions
+from
+- formally admissible but observationally ambiguous ones.
+
+The U-space remains fully well-defined across these boundaries.
+
+---
+
+## Evolution of the Effective U-Space
+
+The U-space is not static in practical use.
+
+While its formal definition remains fixed,
+the **effectively accessible subset** grows with knowledge.
+
+New empirical insights, new comparison procedures,
+and new relational invariants
+expand the region of \(\mathcal{U}\)
+that can be meaningfully projected.
+
+This expansion does not add structure to \(\mathcal{U}\).
+It refines how projections are constructed.
+
+---
+
+## Separation from Speculation
+
+The U-space does not forbid speculative constructions.
+
+It enforces a separation:
+
+- formulation is always allowed,
+- physical interpretation is conditional.
+
+Statements that cannot be uniquely traced back
+through a projection remain valid **as formal expressions**,
+but are not granted physical meaning.
+
+This prevents mathematical artifacts
+from being mistaken for physical claims.
+
+---
+
+## Relation to Models and Theories
+
+The U-space is **not a model of the world**.
+
+It does not compete with existing theories
+and does not replace any physical framework.
+
+Instead, it provides a shared formal environment
+in which different models can be:
+
+- compared,
+- aligned,
+- and checked for category errors.
+
+All theories enter the U-space on equal footing.
+
+---
+
+## Role Within the Framework
+
+Within MACHWERK, the U-space serves as:
+
+- the common relational ground of all descriptions,
+- the source domain of all projections,
+- the domain in which formal admissibility is decided.
+
+It functions as a **coordinate system for reasoning**,
+not as a representation of reality.
+
+The U-space makes boundaries explicit,
+models comparable,
+and assumptions visible.
