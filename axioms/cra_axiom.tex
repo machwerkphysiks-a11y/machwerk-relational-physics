@@ -1,0 +1,38 @@
+\section{CRA Axiom}
+
+\textbf{CRA Axiom (Consistency of Relational Applicability)}
+
+A relational statement is physically admissible if and only if
+all involved quantities
+
+\begin{enumerate}
+    \item are defined within the same relational validity domain,
+    \item are subject to the same projection boundary,
+    \item are combined without implicit category transitions.
+\end{enumerate}
+
+Let
+\[
+\mathcal{R} = \{ r_1, r_2, \dots, r_n \}
+\]
+be a finite set of relational expressions.
+
+A statement
+\[
+S(\mathcal{R})
+\]
+is said to be \emph{physically admissible} if and only if there exists
+a validity domain $m_2$ such that
+\[
+\exists\, m_2 \;:\;
+\forall r_i \in \mathcal{R}, \quad r_i \in m_2.
+\]
+
+If no such domain exists, the statement remains formally computable,
+but loses physical interpretability.
+
+Violation of the CRA axiom does not indicate a mathematical error.
+It indicates a category error in the interpretation of the result.
+
+The CRA axiom does not restrict computation.
+It restricts attribution of physical meaning.
