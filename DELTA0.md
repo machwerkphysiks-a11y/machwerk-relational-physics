@@ -1,69 +1,87 @@
-# Δ₀ (Delta Null)
+## Δ₀ (Delta Zero)
 
-Δ₀ ist kein physikalischer Parameter,
-keine Konstante
-und kein Grenzwert im klassischen Sinn.
+Δ₀ is not a physical parameter, not a constant, and not a limit in the classical sense.
 
-Δ₀ ist ein **formaler Grenzmarker**.
+Δ₀ is a **formal boundary marker**.
 
-## Motivation
+---
 
-In vielen physikalischen Modellen treten Ausdrücke auf,
-die formal weitergeführt werden können,
-deren Ergebnisse jedoch nicht mehr eindeutig
-auf beobachtbare Relationen rückführbar sind.
+### Motivation
 
-Δ₀ markiert genau diesen Übergang.
+In many physical models, expressions can be extended formally beyond their original
+domain of validity.  
+Such continuations may remain mathematically well-defined, yet their results can no
+longer be unambiguously traced back to observable relational structures.
 
-## Formale Rolle
+Δ₀ marks precisely this transition.
 
-Sei
+It identifies the point at which a statement remains formally expressible
+but loses its unique physical interpretability.
+
+---
+
+### Formal Role
+
+Let  
 \[
 \Pi : \mathcal{U} \rightarrow m
 \]
-eine Projektion in einen beobachtbaren Rechenraum.
+be a projection from the relational reference space into an observable calculation space.
 
-Δ₀ kennzeichnet den Punkt,
-an dem eine Aussage zwar noch formal definiert,
-aber nicht mehr eindeutig interpretierbar ist:
+Δ₀ denotes the point at which a statement satisfies:
 
 \[
-\text{Rückabbildbarkeit} \;\longrightarrow\; \text{nicht entscheidbar}
+\text{formal definability} \;\;\wedge\;\; \neg(\text{unique backprojection})
 \]
 
-Δ₀ ist damit kein Zahlenwert,
-sondern ein **Entscheidungsmarker**.
+Equivalently:
 
-## Abgrenzung
+\[
+\text{invertibility} \;\longrightarrow\; \text{undecidable}
+\]
 
-Δ₀ ist:
+Δ₀ is therefore **not a numerical value**, but a **decision marker** within the formal
+framework.
 
-- kein Limes im analytischen Sinn  
-- keine Regularisierung  
-- keine physikalische Grenze  
+---
 
-Δ₀ ersetzt keine Rechnung.
-Es markiert deren **Gültigkeitsende**.
+### Delimitation
 
-## Zusammenhang mit Schwarzgrenzen
+Δ₀ is:
 
-Δ₀ tritt stets im Umfeld von Schwarzgrenzen auf.
+- not an analytical limit  
+- not a regularization scheme  
+- not a physical boundary  
+- not a replacement for computation  
 
-Während die Schwarzgrenze den strukturellen Verlust der Injektivität beschreibt,
-kennzeichnet Δ₀ den Punkt,
-an dem eine konkrete Rechnung
-ihre physikalische Aussagekraft verliert.
+Δ₀ does **not** terminate a calculation.  
+It marks the point at which the **physical meaning** of the calculation can no longer be
+maintained.
 
-## Funktion im Rahmenwerk
+---
 
-Δ₀ erlaubt es,
+### Relation to Black Boundaries
 
-- formale Fortsetzungen zuzulassen  
-- ohne sie physikalisch zu interpretieren  
+Δ₀ always appears in the vicinity of a black boundary.
 
-Damit wird verhindert,
-dass mathematische Artefakte
-als physikalische Aussagen missverstanden werden.
+While a black boundary describes the **structural loss of injectivity** of a projection,
+Δ₀ marks the point at which a **specific computation** ceases to carry physical meaning.
 
-Δ₀ ist kein Abbruch.
-Δ₀ ist ein Marker.
+The black boundary is structural.  
+Δ₀ is operational.
+
+---
+
+### Function Within the Framework
+
+Δ₀ allows:
+
+- formal continuations to remain admissible  
+- without assigning them physical interpretation  
+
+This prevents mathematical artifacts from being mistaken for physical statements.
+
+Δ₀ is **not** an abort condition.  
+Δ₀ is a **marker**.
+
+It separates what may be calculated from what may be physically asserted.
