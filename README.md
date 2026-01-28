@@ -1,158 +1,222 @@
-# "MACHWERK"
+# MACHWERK  
+## Formal Conditions of Physical Admissibility
 
-## Formale Bedingungen physikalischer Beschreibbarkeit
+**MACHWERK** is a formally closed framework for defining the conditions under which
+physical statements, equations, and models are **admissible, comparable, and
+meaningfully interpretable**.
 
-Machwerk formuliert ein formales Rahmenwerk für die theoretische Physik.
-Es handelt sich **nicht** um ein alternatives physikalisches Modell und **nicht**
-um eine konkurrierende Theorie zu bestehenden Ansätzen.
+This repository contains the **formal mathematical core** of MACHWERK.
 
-Stattdessen beschreibt Machwerk die **logischen und formalen Bedingungen**, unter
-denen physikalische Aussagen überhaupt sinnvoll, rückführbar und konsistent
-formuliert werden können.
+The framework is fully developed and published as a printed monograph:
 
-Der Fokus liegt auf:
-- relationaler Beschreibung statt Objektannahmen
-- Projektion statt direkter Ontologie
-- klarer Trennung zwischen beobachtbarem Rechenraum und formaler Fortsetzung
-- expliziter Markierung von Gültigkeitsgrenzen physikalischer Modelle
-
----
-
-## Inhaltlicher Anspruch
-
-Machwerk verändert keine etablierten Gleichungen.
-Innerhalb des eindeutig rückführbaren Bereichs bleibt bestehende Physik vollständig gültig.
-
-Das Werk setzt **eine Ebene darüber** an:
-Es untersucht, **wann**, **wo** und **unter welchen Bedingungen**
-physikalische Beschreibungen ihre Bedeutung verlieren,
-ohne dabei neue Dynamiken oder Entitäten einzuführen.
-
-Zentrale Konzepte sind unter anderem:
-- relationale Projektion
-- Rückabbildbarkeit
-- Schwarzgrenzen (Injektivitätsverlust)
-- formale Grenzräume ohne physikalische Ontologie
-- Konsistenzbedingungen physikalischer Aussagen
+> **MACHWERK — Formale Bedingungen physikalischer Beschreibbarkeit**  
+> Author: Stefan Schwarz 
+> ISBN: 979-8-24410-846-0
+> Platform: Amazon.com (Print-on-Demand)  
+> Release date: February 1, 2026
+> 
+This GitHub repository does **not** replace the book.  
+It provides the **machine-readable, axiomatic kernel** underlying it.
 
 ---
 
-## Methodische Haltung
+## What MACHWERK Is
 
-Machwerk ist kein spekulatives Werk.
+MACHWERK is a **formal meta-framework** for physics.
 
-Jede Aussage unterliegt einer einfachen Regel:
-Eine physikalische Interpretation ist nur dort zulässig,
-wo eine eindeutige relationale Rückführung möglich ist.
+It defines:
+- relational state spaces
+- projection operators
+- domains of validity
+- loss of injectivity (boundary conditions)
+- admissibility criteria for physical statements
 
-Bereiche, in denen diese Rückführung endet,
-werden nicht verworfen, sondern **formal markiert**.
+MACHWERK does **not** introduce new particles, forces, fields, or dynamics.
 
-Spekulation wird nicht verboten.
-Sie wird **sauber vom Beschreibbaren getrennt**.
+Instead, it answers a prior question:
 
----
+> **Under which formal conditions is a physical statement well-defined at all?**
 
-## Zielgruppe
-
-Dieses Werk richtet sich an Leserinnen und Leser mit
-fundiertem Interesse an theoretischer Physik,
-mathematischer Modellbildung und formaler Konsistenz.
-
-Es ist **nicht** als populärwissenschaftliche Einführung gedacht
-und setzt die Bereitschaft voraus,
-Definitionen präzise zu lesen und konsequent anzuwenden.
+Only after these conditions are fixed does conventional physics become meaningful.
 
 ---
 
-## Status
+## What MACHWERK Is Not
 
-Dieses Repository dient als **Referenz- und Projektablage**.
+- not a competing physical theory  
+- not an interpretation of quantum mechanics  
+- not a numerical simulation or solver  
+- not speculative or narrative philosophy  
 
-Der vollständige Text wird hier nicht dauerhaft öffentlich vorgehalten.
-Auszüge, Begriffsdefinitionen und strukturelle Hinweise können angepasst werden,
-ohne den formalen Kern des Werks zu verändern.
+No experimental claims are asserted here.
 
----
+No ontological commitments are imposed.
 
-## Lizenz
-
-© Autor
-
-Lizenz: Creative Commons BY-NC-ND 4.0  
-Weitergabe unveränderter Fassungen zu nicht-kommerziellen Zwecken erlaubt.  
-Keine Bearbeitungen, keine Derivate.
+All established physical theories remain **fully valid within their
+respective domains of applicability**.
 
 ---
 
-## Suchbegriffe
+## Why This Repository Exists
 
-## Suchbegriffe
+The printed book contains:
+- conceptual motivation
+- formal development
+- derivations
+- applications (Parts A–E)
+- physical examples and boundary analyses
+
+This repository contains **only the formal kernel**, stripped of:
+- prose
+- interpretation
+- examples
+- didactic explanation
+
+The purpose of this repository is to make the framework:
+
+- **machine-readable**
+- **algorithmically inspectable**
+- **formally auditable**
+- **usable for derivation and consistency checks**
+
+This separation is intentional.
+
+---
+
+## Rechenbarkeit / Calculability
+
+MACHWERK is **not descriptive**.  
+It is **operational**.
+
+The formal core defines:
+- operators
+- mappings
+- domains
+- fixpoints
+- admissibility constraints
+
+These structures **can be used for calculation**, derivation, and validation of
+physical models.
+
+What is restricted is **not computation**, but **uncontrolled interpretation**.
+
+If a statement cannot be uniquely related back through the defined projections,
+it is **formally inadmissible as a physical statement**, even if mathematically valid.
+
+---
+
+## Core Concepts (Formal)
+
+The formal kernel is organized bottom-up:
+
+1. **Relational Full Space (U-space)**  
+   A non-geometric, non-temporal relational reference domain.
+
+2. **Projection (Π)**  
+   Mapping from relational configurations into observable calculation spaces.
+
+3. **Injectivity & Invertibility**  
+   Conditions under which projections preserve distinguishability.
+
+4. **Validity Domains (m₂)**  
+   Domains in which physical statements remain uniquely interpretable.
+
+5. **Boundary Conditions (Σ, Δ₀)**  
+   Formal markers for loss of injectivity and non-recoverable residues.
+
+6. **Fixpoint Criteria**  
+   Recursive stability conditions for admissible statements.
+
+7. **CRA Axiom (Consistency of Relational Applicability)**  
+   A global consistency constraint governing admissibility.
+
+Each concept is defined in a **single, self-contained formal file**.
+
+---
+
+## Structure of This Repository
+
+This repository is intentionally non-linear.
+
+Each file defines exactly one formal concept.
+No file assumes definitions that appear later.
+
+Recommended reading order:
+
+- `u_space.tex`
+- `projection_definition.tex`
+- `projection_operator.tex`
+- `injectivity_and_invertibility.tex`
+- `m2_definition.tex`
+- `black_boundary_sigma.tex`
+- `delta_zero.tex`
+- `fixpoint_m2.tex`
+- `cra_axiom.tex`
+
+---
+
+## Relation to the Book
+
+The book applies this formal kernel to:
+
+- dimensional emergence
+- limits of spacetime descriptions
+- quantum correlations
+- gravitational boundaries
+- cosmological edge cases
+- relational process dynamics (TRD)
+
+These **applications are deliberately not duplicated here**.
+
+This repository provides the **ground truth** against which those applications
+can be reconstructed, verified, or rederived.
+
+---
+
+## Intended Audience
+
+- theoretical physicists
+- mathematicians
+- logicians
+- computer scientists
+- AI researchers working with formal reasoning systems
+
+This repository assumes familiarity with:
+- formal logic
+- abstract mathematical structures
+- non-narrative specification styles
+
+It is **not** a tutorial.
+
+---
+
+## License
+
+© Author
+
+Creative Commons BY-NC-ND 4.0  
+Redistribution of unchanged copies permitted for non-commercial purposes.  
+No derivatives.
+
+---
+
+## Keywords (for indexing)
 
 theoretical physics  
 foundations of physics  
 formal physics  
-meta-theory physics  
+meta-framework physics  
 relational physics  
-relational ontology  
-projection in physics  
-observability  
+projection operators  
 limits of observability  
-non-invertible mappings  
 injectivity loss  
-information collapse  
-black boundary  
-black horizon logic  
+non-invertible mappings  
 formal boundary conditions  
-limits of physical models  
-consistency of physical statements  
-model validity  
-model breakdown  
-quantum foundations  
-quantum gravity foundations  
-cosmology foundations  
-emergent space  
-emergent time  
-non-geometric physics  
-post-spacetime physics  
+physical admissibility  
+consistency axioms  
 process-based physics  
-relational dynamics  
-measurement theory  
-observer dependence  
-second order physics  
-meta-physics (formal, non-metaphysical)
----
-
-## Struktur des Begriffsraums
-
-Dieses Repository bildet keinen linearen Text ab, sondern einen vernetzten
-Begriffsraum. Zentrale Konzepte sind über eigenständige Dateien erschlossen
-und miteinander referenziert.
-
-Zentrale Einstiegspunkte:
-
-- **U-Raum**  
-  Relationaler Vollraum ohne Raum, Zeit oder Metrik  
-  → `U_RAUM.md`
-
-- **Projektion**  
-  Abbildung relationaler Strukturen in beobachtbare Rechenräume  
-  → `PROJEKTION.md`
-
-- **Schwarzgrenze (Σ)**  
-  Verlust der Injektivität von Projektionen  
-  → `SCHWARZGRENZE.md`
-
-- **Δ₀ (Delta Null)**  
-  Grenzmarker nicht rückabbildbarer Reste  
-  → `DELTA_0.md`
-
-- **Three-Reaction Dynamics (TRD)**  
-  Minimaler relationaler Vergleichsmechanismus  
-  → `TRD.md`
-
-- **Index / Begriffsübersicht**  
-  → `INDEX.md`
-
-Dieses Netzwerk ist offen erweiterbar.  
-Neue Begriffe werden nicht „eingeführt“, sondern relational eingeordnet.
+non-geometric models  
+post-spacetime physics  
+formal reasoning systems  
+machine-readable physics  
+AI physics kernels
