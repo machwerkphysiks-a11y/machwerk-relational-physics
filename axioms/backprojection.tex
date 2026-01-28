@@ -1,21 +1,23 @@
 \section{Backprojection}
 
-A backprojection
-\[
-\Pi^{-1} : m \rightarrow \mathcal{U}
-\]
-is defined on a subset $m_2 \subseteq m$ if and only if
-the projection $\Pi$ is injective on the corresponding domain.
+A backprojection is a formal attempt to reconstruct
+relational states in $\mathcal{U}$ from observable states
+in a projection space.
 
-Formally,
+Formally, a backprojection is written as
 \[
-\exists\, \Pi^{-1}
-\;\Longleftrightarrow\;
-\Pi \text{ is injective on } m_2.
+\Pi^{-1} : m \rightarrow \mathcal{U}.
 \]
 
-Backprojection is not assumed globally.
-It is a conditional construct tied to projection stability.
+In general, $\Pi^{-1}$ is not a well-defined function.
 
-Outside of $m_2$, symbols may remain formally manipulable,
-but no unique relational origin exists.
+A unique backprojection exists if and only if
+the projection $\Pi$ is injective on the considered domain.
+
+If $\Pi$ is not injective,
+multiple relational configurations correspond
+to the same observable state.
+
+In such cases, backprojection is undefined
+as a physical operation and may exist only
+as a formal construction without interpretative meaning.
