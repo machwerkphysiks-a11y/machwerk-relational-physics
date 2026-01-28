@@ -1,105 +1,150 @@
-# Projektion und Beobachtbarkeit
+# Projection and Observability
 
-Physikalische Beobachtbarkeit ist kein direkter Zugriff
-auf Realität, sondern das Ergebnis einer Projektion.
+Physical observability is not direct access to reality.
+It is the result of a projection.
 
-Dieses Werk unterscheidet strikt zwischen
-dem relationalen Referenzraum (U-Raum)
-und beobachtbaren Rechenräumen.
+MACHWERK strictly distinguishes between the **relational reference domain**
+(U-space) and **observable calculation spaces**.
+This distinction is foundational and non-negotiable.
 
-## Projektionsprinzip
+---
 
-Es existiert eine Abbildung
+## The Projection Principle
+
+There exists a mapping
 
 \[
 \Pi : \mathcal{U} \rightarrow \mathcal{M}
 \]
 
-wobei \(\mathcal{U}\) der relationale Vollraum
-und \(\mathcal{M}\) ein beobachtbarer Rechenraum ist.
+where:
 
-Die Projektion ist kein physikalischer Prozess,
-sondern eine formale Zuordnung.
+- \(\mathcal{U}\) denotes the fully relational reference space  
+- \(\mathcal{M}\) denotes an observable calculation space  
 
-## Eigenschaften der Projektion
+The projection \(\Pi\) is **not a physical process**.
+It does not describe dynamics, causation, or interaction.
 
-Eine Projektion ist grundsätzlich:
+It is a **formal assignment** that determines which relational structures
+become representable as physical quantities.
 
-- informationsreduzierend  
-- kontextabhängig  
-- nicht notwendigerweise injektiv  
-- nicht notwendigerweise surjektiv  
+---
 
-Diese Eigenschaften sind strukturell
-und nicht durch bessere Messung aufhebbar.
+## Structural Properties of Projection
 
-## Beobachtbare Rechenräume
+Every projection is, by construction:
 
-Beobachtbare Physik findet in eingeschränkten
-Rechenräumen statt, die durch stabile Projektionen
-definiert sind.
+- information-reducing  
+- context-dependent  
+- not necessarily injective  
+- not necessarily surjective  
 
-Diese Rechenräume sind:
+These properties are **structural**, not technical.
+They cannot be removed by improved measurement, higher resolution,
+or more refined instrumentation.
 
-- nicht fundamental  
-- nicht vollständig  
-- nicht ontologisch privilegiert  
+Projection loss is not a failure of physics.
+It is a consequence of representation.
 
-Sie sind Werkzeuge, keine Träger der Realität.
+---
 
-## Injektivität und Eindeutigkeit
+## Observable Calculation Spaces
 
-Eine Projektion ist injektiv, wenn gilt:
+Observable physics takes place in **restricted calculation spaces**
+defined by stable projections.
+
+Such spaces are:
+
+- not fundamental  
+- not complete  
+- not ontologically privileged  
+
+They are **tools**, not carriers of reality.
+
+Space, time, fields, particles, and observables
+exist only as structures *within* such projected domains.
+
+---
+
+## Injectivity and Uniqueness
+
+A projection is injective if and only if:
 
 \[
 \forall u_1 \neq u_2 \in \mathcal{U} :
 \Pi(u_1) \neq \Pi(u_2)
 \]
 
-Nur in injektiven Bereichen sind Zustände
-eindeutig rekonstruierbar.
+Only in injective regions are states
+**uniquely distinguishable and reconstructible**.
 
-Eindeutigkeit ist daher keine globale Eigenschaft
-der Physik, sondern eine lokale Eigenschaft
-der Projektion.
+Uniqueness is therefore:
 
-## Rückabbildbarkeit
+- not a global property of physics  
+- not guaranteed by theory  
+- a **local property of the projection**  
 
-Rückabbildbarkeit bedeutet nicht,
-dass der U-Raum rekonstruierbar wäre.
+Whenever injectivity fails, distinct relational states
+collapse into identical observable representations.
 
-Sie bedeutet ausschließlich:
+---
 
-Beobachtbare Zustände lassen sich eindeutig
-auf eine Klasse zulässiger Relationen zurückführen.
+## Backprojectability
 
-Sobald Injektivität verloren geht,
-ist Rückabbildbarkeit prinzipiell ausgeschlossen.
+Backprojectability does **not** mean that U-space can be reconstructed.
 
-## Projektion ist keine Einschränkung
+It means only this:
 
-Die Projektion beschränkt nicht die Realität,
-sondern die Interpretation.
+Observable states can be uniquely assigned
+to a well-defined class of admissible relational configurations.
 
-Alles bleibt im U-Raum zulässig.
-Nur die physikalische Deutung wird begrenzt.
+Once injectivity is lost, backprojectability is
+**principally impossible**, not merely difficult.
 
-## Referenzrahmencharakter
+No refinement of interpretation can recover it.
 
-Der Projektionsbegriff definiert,
-wo physikalische Aussagen sinnvoll sind
-und wo sie in formale Fortsetzungen übergehen.
+---
 
-Dies ist keine Reduktion der Physik,
-sondern eine Präzisierung ihres Geltungsbereichs.
+## Projection Is Not a Restriction of Reality
 
-## Zusammenhang mit Schwarzgrenze
+Projection does not restrict what exists.
+It restricts what can be **physically interpreted**.
 
-Der Verlust der Injektivität einer Projektion
-definiert die Schwarzgrenze.
+All relational configurations remain admissible in U-space.
+Only their interpretation as physical states is bounded.
 
-Die Schwarzgrenze ist daher kein Objekt,
-sondern eine Eigenschaft der Abbildung.
+This prevents mathematical artifacts
+from being misidentified as physical facts.
 
-Jede Physik jenseits dieser Grenze
-ist Physik zweiter Ordnung.
+---
+
+## Projection as a Reference Framework
+
+The projection concept defines:
+
+- where physical statements are meaningful  
+- where they remain formally valid but physically undecidable  
+- where interpretation must explicitly stop  
+
+This is not a reduction of physics.
+It is a **precision tool** for its domain of validity.
+
+---
+
+## Relation to the Black Boundary
+
+Loss of injectivity under projection defines the **black boundary**.
+
+The black boundary is therefore:
+
+- not an object  
+- not a region of space  
+- not a physical entity  
+
+It is a **property of the mapping** \(\Pi\).
+
+Beyond this boundary, formal continuation remains possible,
+but physical interpretation is no longer admissible.
+
+Physics does not end there.
+Interpretation does.
