@@ -1,0 +1,70 @@
+\section{Projection Admissibility}
+
+This application demonstrates the minimal conditions under which
+a formal relational statement becomes physically admissible.
+
+\subsection{Setup}
+
+Let
+\[
+\mathcal{U}
+\]
+denote the relational reference space.
+
+Let
+\[
+\Pi : \mathcal{U} \rightarrow m_2
+\]
+be a projection into an observable calculation domain.
+
+Consider a relational expression
+\[
+S(u)
+\quad\text{with}\quad
+u \in \mathcal{U}.
+\]
+
+\subsection{Admissibility Condition}
+
+A statement is physically admissible if and only if
+its value depends exclusively on the projected state.
+
+Formally, admissibility requires:
+\[
+\forall u_1,u_2 \in \mathcal{U} :
+\Pi(u_1) = \Pi(u_2)
+\;\Rightarrow\;
+S(u_1) = S(u_2).
+\]
+
+\subsection{Interpretation}
+
+This condition ensures that the statement does not distinguish
+between relational states that are observationally identical.
+
+Any dependence on unobservable relational degrees of freedom
+renders the statement physically inadmissible.
+
+\subsection{Boundary Case}
+
+If there exist
+\[
+u_1 \neq u_2
+\quad\text{such that}\quad
+\Pi(u_1) = \Pi(u_2)
+\quad\text{and}\quad
+S(u_1) \neq S(u_2),
+\]
+then the statement crosses a projection boundary.
+
+The computation remains formally valid,
+but loses physical interpretability.
+
+\subsection{Result}
+
+Projection admissibility is a structural criterion.
+
+It does not restrict formal mathematics.
+It restricts physical interpretation.
+
+This rule applies universally, independent of model, scale, or domain.
