@@ -13,40 +13,75 @@ be a projection into an observable calculation space.
 
 Assume two distinct relational configurations
 \[
-u_1 \neq u_2 \in \mathcal{U}
+u_1 \neq u_2 \in \mathcal{U}.
 \]
 
 \subsection{Projection Collapse}
 
 Suppose the projection satisfies
 \[
-\Pi(u_1) = \Pi(u_2)
+\Pi(u_1) = \Pi(u_2).
 \]
 
 The observable state in $m_2$ is identical,
 although the underlying relational configurations differ.
 
+This implies that the observable description
+cannot distinguish between $u_1$ and $u_2$.
+
 \subsection{Black Boundary Identification}
 
 The set of all such configurations defines the black boundary
 \[
-\Sigma := \{ u \in \mathcal{U} \mid \Pi \text{ is non-injective} \}
+\Sigma := \{\, u \in \mathcal{U} \mid \Pi \text{ is non-injective} \,\}.
 \]
 
-\subsection{Consequence}
+At $\Sigma$, injectivity of the projection is lost.
+
+\subsection{Consequences}
 
 Within $\Sigma$:
 
 \begin{itemize}
-\item formal calculations remain valid
-\item observable quantities remain well-defined
-\item relational states are no longer uniquely reconstructible
+\item formal calculations remain valid,
+\item observable quantities remain well-defined,
+\item relational states are no longer uniquely reconstructible.
 \end{itemize}
+
+No contradiction arises.
+What is lost is uniqueness of physical interpretation.
 
 \subsection{Interpretation Rule}
 
-Any statement that distinguishes between $u_1$ and $u_2$
-is physically inadmissible beyond this boundary.
+Any physical statement $S$ that depends on the distinction
+between $u_1$ and $u_2$ is inadmissible within $\Sigma$.
 
-The black boundary marks loss of interpretability,
-not loss of consistency.
+Formally, a statement $S$ is physically admissible if and only if
+\[
+\forall u_1, u_2 \in \mathcal{U} :
+\Pi(u_1) = \Pi(u_2) \;\Rightarrow\; S(u_1) = S(u_2).
+\]
+
+If this condition is violated,
+the statement exceeds the domain of physical interpretability.
+
+\subsection{Operational Meaning}
+
+The black boundary does not forbid calculation.
+It forbids interpretation.
+
+Beyond $\Sigma$, mathematical continuation is permitted,
+but physical meaning must not be assigned.
+
+\subsection{Role in Model Evaluation}
+
+The black boundary provides a formal criterion to:
+
+\begin{itemize}
+\item reject over-interpreted results,
+\item compare models at their limits of validity,
+\item separate mathematical structure from physical content.
+\end{itemize}
+
+The black boundary is a diagnostic marker,
+not a physical object and not a dynamical process.
